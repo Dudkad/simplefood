@@ -720,6 +720,7 @@ body {
 }
 .restaurants__card-bottom {
   display: flex;
+  justify-content: space-between;
 }
 .restaurants__time {
   padding-left: 52px;
@@ -730,7 +731,6 @@ body {
 }
 .restaurants__time {
   position: relative;
-  margin-right: 110px;
 }
 .restaurants__time::before {
   content: "";
@@ -748,6 +748,7 @@ body {
   padding: 5px 40px;
   border-radius: 20px;
   position: relative;
+  margin-right: 20px;
 }
 .restaurants__btn:hover .restaurants__btn-img {
   fill: #363853;

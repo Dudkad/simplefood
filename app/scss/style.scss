@@ -431,6 +431,7 @@
   }
   &__card-bottom {
     display: flex;
+    justify-content: space-between;
   }
   &__time {
     padding-left: 52px;
@@ -441,7 +442,6 @@
   }
   &__time {
     position: relative;
-    margin-right: 110px;
     &::before {
       content: '';
       background-image: url('../images/restaurants/time.svg');
@@ -459,6 +459,7 @@
     padding: 5px 40px;
     border-radius: 20px;
     position: relative;
+    margin-right: 20px;
     &:hover .restaurants__btn-img {
       fill: $darkBlue-900;
     }
